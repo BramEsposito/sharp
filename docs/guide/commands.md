@@ -75,7 +75,7 @@ The API is the same as building a standard entity form (see [Building an Entity 
 
 Once this method has been declared, a form will be prompted to the user as he clicks on the Command.
 
-Then, is the `execute()` method, it's trivial to grab the entered value, and even to handle the validation:
+Then, in the `execute()` method, it's trivial to grab the entered value, and even to handle the validation:
 
 ```php
 public function execute($instanceId, array $data= []): array
